@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+body {
+  background-image: url("images/bg-desktop.svg");
+  background-color: hsl(257, 40%, 49%);
+}
+h1,
+p {
+  color: #fff;
+}
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-family: "open sans", sans-serif;
+}
+button {
+  padding: 15px;
+  width: 200px;
+  border-radius: 50px;
+  border-style: none;
+  color: hsl(257, 40%, 49%);
+  font-size: 15px;
+  box-shadow: 5px 5px 5px 5px rgb(0 0 0 / 0.2);
+}
+button:hover {
+  background-color: hsl(300, 69%, 71%);
+  color: #fff;
+}
+.logo {
+  margin: 50px;
+}
+.text {
+  width: 30%;
+  display: inline-block;
+  padding: 25px;
+  margin-right: 75px;
+}
+
+.hero-img {
+  float: left;
+  margin: 10px 50px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  margin: 0 auto;
+}
+.attribution a {
+  color: #fff;
+}
+@media (max-width: 500px) {
+  body {
+    text-align: center;
+  }
+  .hero-img {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .text {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
